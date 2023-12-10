@@ -1,0 +1,74 @@
+body{
+    background-color: #0000ff;
+       margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #fff;
+    width: 50%;
+    height: 60vh;
+    margin: auto;
+    padding: 4rem;
+}
+.input-parent-div > input {
+    height: 1rem;
+    padding: 8px;
+    width: 300px;
+    border: none;
+    outline: none;
+    background-color: #ccc;
+    border-radius: 2rem;
+}
+.input-parent-div > button {
+    padding: 0.35rem;
+ width: 100px;
+ background-color: orangered;
+ color: #fff;
+ border: none;
+ outline: none;
+    height: 2rem;
+    border-radius: 2rem;
+    position: absolute;
+   margin-left: -2rem;
+   cursor: pointer;
+}
+.input-parent-div{
+    height: 2rem;
+}
+.content-wrapper{
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-content: center;
+   align-items: center;
+}
+.list-content > ul  {
+    list-style-type: none;
+    position: relative;
+}
+ ul > li {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: blue;
+    user-select: none;
+    padding: 1rem;
+    background-color: #ccc;
+    margin-bottom: 0.5rem;
+    width: 100%;   
+    cursor: pointer;
+}
+.list-content > ul > span {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: orangered;
+    width: 40px;
+    height: 40px;
+    right: 0px;
+    padding: 2rem;
+    line-height: 20px;
+}
+.checked{
+    text-decoration: line-through;
+} 
